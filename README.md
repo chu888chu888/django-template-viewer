@@ -10,12 +10,14 @@ Overview
 
 Django template viewer lets you easily inspect the template layout of your web pages.
 
+**Note**: This package is still in a somewhat experimental stage.  I believe there may currently be some issues with it's interaction with other debug toolbar panels.  Give it a try and let me know what you think. 
+
 Installation
 ============
 
 Install using pip:
 
-    pip install django-template-viewer
+    pip install https://github.com/tomchristie/django-template-viewer/zipball/master
 
 In your debug settings, modify your `TEMPLATE_LOADERS` setting to use `template_viewer`:
 
